@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -10,9 +13,9 @@ html, body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif; 
-  font-size: 16px;
-  line-height: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 1.8em;
 }
 
 a {
@@ -47,7 +50,7 @@ a {
 }
 
 .container2 {
-  min-height: 710px;
+  min-height: 720px;
   margin-bottom: 20px;
   height: auto;
 }
@@ -214,6 +217,7 @@ a {
   background: #3d3e42;
   width: 60%;
   float: left;
+  text-align: left;
   position: relative;
   color: #9099a0;
   font-weight: 300;
@@ -305,7 +309,10 @@ a {
   color: white;
   margin-bottom: 15px;
 }
-
+.time {
+  font-family: 'Cabin', sans-serif; 
+  font-size: 999pxx;
+}
 
  
 /* section */
@@ -351,6 +358,7 @@ a {
 .section-wrapper .skill-percentage {
   margin-bottom: 10px;
   position: relative;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .section-wrapper .skill-percentage svg{
   height: 20px;
