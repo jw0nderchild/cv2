@@ -40,8 +40,16 @@ a {
   height: 100%;
 }
 
-.container {
-  min-height: 600px;
+.container1 {
+  min-height: 500px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.container2 {
+  min-height: 710px;
+  margin-bottom: 20px;
+  height: auto;
 }
 
 .profile {
@@ -163,12 +171,14 @@ a {
   font-weight: 600;
   width: 40%;
   color: #4a4e51;
+  margin-bottom: 20px;
 }
 .profile .list-content {
   float: left;
   width: 60%;
   text-align: left;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .profile .contact-presentation {
   text-align: left;
@@ -197,6 +207,8 @@ a {
 .profile .st0, .profile .st1 {
   fill: #66cc99;
 }
+
+/* experience */
 
 .experience {
   background: #3d3e42;
@@ -252,22 +264,10 @@ a {
   margin-bottom: 15px;
 }
 
-.education {
-  background: #3d3e42;
-  width: 60%;
-  float: left;
-  position: relative;
-  color: #9099a0;
-  font-weight: 300;
-  min-height: 100%;
-  min-height: 100vh;
-}
-@media (max-width: 850px) {
-  .education {
-    width: 100%;
-  }
-}
-.education h3.education-title {
+
+/* education */
+
+.experience h3.education-title {
   color: #66cc99;
   text-align: left;
   text-transform: uppercase;
@@ -275,36 +275,40 @@ a {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.education .university-wrapper {
-  width: 30%;
+.experience .study-wrapper {
+  width: 65%;
   float: left;
   text-align: left;
   padding-right: 5%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 @media (max-width: 450px) {
-  .education .university-wrapper {
+  .experience .study-wrapper {
     width: 100%;
     margin-bottom: 20px;
   }
 }
-.education .study-wrapper {
-  width: 70%;
+.experience .university-wrapper {
+  width: 35%;
   float: left;
   text-align: left;
   padding-right: 5%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 @media (max-width: 450px) {
-  .education .study-wrapper {
+  .experience .university-wrapper {
     width: 100%;
     margin-bottom: 40px;
   }
 }
-.education .education-title {
+.experience .education-title {
   color: white;
   margin-bottom: 15px;
 }
+
+
+ 
+/* section */
 
 .section-padding {
   padding: 60px 60px 40px 40px;
@@ -321,12 +325,12 @@ a {
 }
 
 .section-wrapper {
-  width: 50%;
+  width: 60%;
   float: left;
   text-align: left;
   color: #9099a0;
   font-weight: 300;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 @media (max-width: 450px) {
   .section-wrapper {
@@ -347,6 +351,13 @@ a {
 .section-wrapper .skill-percentage {
   margin-bottom: 10px;
   position: relative;
+}
+.section-wrapper .skill-percentage svg{
+  height: 20px;
+  width: 20px; 
+  color: white;
+  float: right;
+  margin-left: 9px;
 }
 .section-wrapper .skill-percentage::after {
   content: "";
