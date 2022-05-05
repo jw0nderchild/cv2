@@ -50,7 +50,7 @@ a {
 }
 
 .container2 {
-  min-height: 720px;
+  min-height: 780px;
   margin-bottom: 20px;
   height: auto;
 }
@@ -285,6 +285,7 @@ a {
   text-align: left;
   padding-right: 5%;
   margin-bottom: 30px;
+  padding-left: 10px;
 }
 @media (max-width: 450px) {
   .experience .study-wrapper {
@@ -332,7 +333,7 @@ a {
 }
 
 .section-wrapper {
-  width: 60%;
+  width: 75%;
   float: left;
   text-align: left;
   color: #9099a0;
