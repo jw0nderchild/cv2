@@ -58,7 +58,7 @@ a {
   background: #fff;
   width: 40%;
   float: left;
-  color: #9099a0;
+  color: #aeb9c2;
 }
 @media (max-width: 850px) {
   .profile {
@@ -208,6 +208,33 @@ a {
 }
 .profile .st0, .profile .st1 {
   fill: #66cc99;
+}
+
+/* project */
+
+.profile h3.experience-title {
+  color: #66cc99;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.profile .project-wrapper {
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+@media (max-width: 450px) {
+  .profile .project-wrapper {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.profile .experience-title {
+  color: #4a4e51;
 }
 
 /* experience */
