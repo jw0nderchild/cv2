@@ -361,8 +361,8 @@ a {
   font-family: 'Josefin Sans', sans-serif;
 }
 .section-wrapper .skill-percentage svg{
-  height: 20px;
-  width: 20px; 
+  height: 25px;
+  width: 25px; 
   color: white;
   float: right;
   margin-left: 9px;
@@ -384,7 +384,7 @@ a {
   bottom: 0;
 }
 .section-wrapper .skill-percentage:nth-child(1)::before {
-  width: 80%;
+  width: 90%;
   -webkit-animation: skill_1 0.6s ease;
           animation: skill_1 0.6s ease;
 }
@@ -394,7 +394,7 @@ a {
           animation: skill_2 0.6s ease;
 }
 .section-wrapper .skill-percentage:nth-child(3)::before {
-  width: 50%;
+  width: 80%;
   -webkit-animation: skill_3 0.6s ease;
           animation: skill_3 0.6s ease;
 }
